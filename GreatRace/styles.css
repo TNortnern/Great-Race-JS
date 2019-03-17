@@ -1,0 +1,91 @@
+#startButton{
+    position:absolute;
+    background-color:rgba(13, 42, 121, 0.7);
+    color:white;
+}
+
+#startButton:hover{
+    background-color:rgba(13, 42, 121, 0.9);
+}
+
+#racers{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 2%;
+    left:0px;
+    
+}
+
+#redLight, #greenLight{
+    height: 100px; width:11vw; position: absolute; transition: 1s; right: 10%
+}
+
+#redLight{
+  
+}
+
+#winnerText{
+    position: absolute;
+    bottom: 22%;
+    color:white;
+    font-size:2.5em;
+    opacity:0;
+    transition: 1s
+}
+
+#greenLight{
+   opacity: 0;
+}
+
+.racingRacers{
+    position: relative;
+    
+}
+
+#racers img{
+    height:25vh;
+    width:25vw;
+    margin-bottom: 10px
+    
+}
+
+body{
+
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+}
+
+#restartButton{
+    position:absolute;
+    background-color:rgba(13, 42, 121, 0.7);
+    color:white;
+    top:80%;
+    opacity:0;
+    
+}
+
+#restartButton:hover{
+    background-color:rgba(13, 42, 121, 0.9);
+}
+.center{
+    display:flex;
+    justify-content: center;
+}
+
+button{
+    height: 50px;
+    border-radius:20px;
+    transition:.8s;
+    width:12vw
+}
+
+#winner{
+    height:400px;
+    opacity:0;
+    transition: 1s;
+    z-index:-1;
+    position: absolute;
+    width:30vw
+}
+
